@@ -1,0 +1,51 @@
+"Phrases"
+{
+	"Menu title"
+	{
+		"ru"	"Отправить сообщение:"
+	}
+
+	"Panel title"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Сообщение игроку {1}:"
+	}
+
+	"Panel submit"
+	{
+		"ru"	"Оправить"
+	}
+
+	"Panel cancel"
+	{
+		"ru"	"Отмена"
+	}
+
+	"Prefix"
+	{
+		"ru"	"[Private Messages] "
+	}
+
+	"The player left the server"
+	{
+		"ru"	"Игрок вышел с сервера"
+	}
+
+	"Private message"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Вам пришло личное сообщение от игрока {1}:"
+	}
+
+	"Private message sended"
+	{
+		"#format"	"{1:N}"
+		"ru"	"Ваше персональное сообщение было отправлено игроку {1}"
+	}
+
+	"Private message notify"
+	{
+		"#format"	"{1:N},{2:N}"
+		"ru"	"Игрок {1} отправил сообщение игроку {2}:"
+	}
+}
