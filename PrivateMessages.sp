@@ -40,7 +40,7 @@ public Action sayHook(int iClient, const char[] szCommand, int iArgs) {
 
 		Format(g_szMessage[iClient], 256, szMessage);
 		showMessagePanel(iClient, szMessage);
-		
+
 		return Plugin_Stop;
 	}
 
@@ -59,7 +59,7 @@ public Action privateMessageCommand(int iClient, int iArgs) {
 	hMenu.SetTitle("%t", "Menu title");
 
 	for (int iClientIndex = 1; iClientIndex <= MaxClients; iClientIndex++) {
-		if (IsClientInGame(iClientIndex)) {
+		if (IsClientInGame(iClientIndex) && iClientIndex != iClient) {
 			GetClientName(iClientIndex, szClientName, sizeof(szClientName));
 			IntToString(iClientIndex, szClientID, sizeof(szClientID));
 			hMenu.AddItem(szClientID, szClientName);
